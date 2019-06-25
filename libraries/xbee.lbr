@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -263,8 +263,7 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <text x="-11.43" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="XBEE-PRO">
-<description>&lt;b&gt;XBEE Pro&lt;/b&gt;&lt;p&gt;
-Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf</description>
+<description>&lt;b&gt;XBEE Pro&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-12.1" y1="-17.305" x2="-12.1" y2="9.1" width="0.2032" layer="21"/>
 <wire x1="-12.1" y1="9.1" x2="-5.775" y2="15.425" width="0.2032" layer="21"/>
 <wire x1="-5.775" y1="15.425" x2="5.775" y2="15.425" width="0.2032" layer="21"/>
@@ -574,28 +573,48 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <wire x1="4.7901" y1="-4.1636" x2="5.1661" y2="-3.7876" width="0.1016" layer="21"/>
 <wire x1="5.1661" y1="-3.7876" x2="5.6952" y2="-3.342" width="0.1016" layer="21"/>
 <wire x1="5.6952" y1="-3.342" x2="5.9877" y2="-3.1889" width="0.1016" layer="21"/>
-<pad name="1" x="-11" y="9" drill="0.8" diameter="1.27"/>
-<pad name="2" x="-11" y="7" drill="0.8" diameter="1.27"/>
-<pad name="3" x="-11" y="5" drill="0.8" diameter="1.27"/>
-<pad name="4" x="-11" y="3" drill="0.8" diameter="1.27"/>
-<pad name="5" x="-11" y="1" drill="0.8" diameter="1.27"/>
-<pad name="6" x="-11" y="-1" drill="0.8" diameter="1.27"/>
-<pad name="7" x="-11" y="-3" drill="0.8" diameter="1.27"/>
-<pad name="8" x="-11" y="-5" drill="0.8" diameter="1.27"/>
-<pad name="9" x="-11" y="-7" drill="0.8" diameter="1.27"/>
-<pad name="10" x="-11" y="-9" drill="0.8" diameter="1.27"/>
-<pad name="11" x="11" y="-9" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="12" x="11" y="-7" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="13" x="11" y="-5" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="14" x="11" y="-3" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="15" x="11" y="-1" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="16" x="11" y="1" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="17" x="11" y="3" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="18" x="11" y="5" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="19" x="11" y="7" drill="0.8" diameter="1.27" rot="R180"/>
-<pad name="20" x="11" y="9" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="1" x="-11" y="8.746" drill="0.8" diameter="1.27"/>
+<pad name="2" x="-11" y="6.746" drill="0.8" diameter="1.27"/>
+<pad name="3" x="-11" y="4.746" drill="0.8" diameter="1.27"/>
+<pad name="4" x="-11" y="2.746" drill="0.8" diameter="1.27"/>
+<pad name="5" x="-11" y="0.746" drill="0.8" diameter="1.27"/>
+<pad name="6" x="-11" y="-1.254" drill="0.8" diameter="1.27"/>
+<pad name="7" x="-11" y="-3.254" drill="0.8" diameter="1.27"/>
+<pad name="8" x="-11" y="-5.254" drill="0.8" diameter="1.27"/>
+<pad name="9" x="-11" y="-7.254" drill="0.8" diameter="1.27"/>
+<pad name="10" x="-11" y="-9.254" drill="0.8" diameter="1.27"/>
+<pad name="11" x="11" y="-9.254" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="12" x="11" y="-7.254" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="13" x="11" y="-5.254" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="14" x="11" y="-3.254" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="15" x="11" y="-1.254" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="16" x="11" y="0.746" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="17" x="11" y="2.746" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="18" x="11" y="4.746" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="19" x="11" y="6.746" drill="0.8" diameter="1.27" rot="R180"/>
+<pad name="20" x="11" y="8.746" drill="0.8" diameter="1.27" rot="R180"/>
 <text x="-11.43" y="13.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.43" y="-19.3" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-9.779" y="8.128" size="1.27" layer="21">1</text>
+<text x="-9.779" y="6.1468" size="1.27" layer="21">2</text>
+<text x="-9.779" y="4.1148" size="1.27" layer="21">3</text>
+<text x="-9.779" y="2.1082" size="1.27" layer="21">4</text>
+<text x="-9.779" y="0.127" size="1.27" layer="21">5</text>
+<text x="-9.779" y="-1.905" size="1.27" layer="21">6</text>
+<text x="-9.779" y="-3.8862" size="1.27" layer="21">7</text>
+<text x="-9.779" y="-5.8928" size="1.27" layer="21">8</text>
+<text x="-9.779" y="-7.8994" size="1.27" layer="21">9</text>
+<text x="-9.779" y="-9.8806" size="1.27" layer="21">10</text>
+<text x="8.001" y="-9.906" size="1.27" layer="21">11</text>
+<text x="8.001" y="-8.001" size="1.27" layer="21">12</text>
+<text x="8.001" y="-5.969" size="1.27" layer="21">13</text>
+<text x="8.001" y="-3.937" size="1.27" layer="21">14</text>
+<text x="8.001" y="-1.905" size="1.27" layer="21">15</text>
+<text x="8.001" y="0.127" size="1.27" layer="21">16</text>
+<text x="8.001" y="2.159" size="1.27" layer="21">17</text>
+<text x="8.001" y="4.064" size="1.27" layer="21">18</text>
+<text x="8.001" y="6.096" size="1.27" layer="21">19</text>
+<text x="8.001" y="8.128" size="1.27" layer="21">20</text>
 </package>
 <package name="XBEE-SMT">
 <description>&lt;strong&gt;XBee SMT&lt;/strong&gt;&lt;br&gt;</description>
@@ -724,8 +743,17 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 </symbols>
 <devicesets>
 <deviceset name="XBEE" prefix="XB">
-<description>&lt;b&gt;XBee (TM) /XBee-PRO(TM) OEM RF Modules&lt;/b&gt;&lt;p&gt;
-Source: MaxStream, Inc. xbee_productmanual.pdf</description>
+<description>&lt;b&gt;XBee (TM) /XBee-PRO(TM) OEM RF Modules&lt;/b&gt;
+&lt;p&gt;
+Based on the original package by MaxStream, Inc
+&lt;/p&gt;
+&lt;p&gt;
+Improvements to the package by Sten Feldman:
+&lt;ul&gt;
+&lt;li&gt;Connecting all the pins of the PRO variant&lt;/li&gt;
+&lt;li&gt;Silkscreen updates for spacing and pin numbers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="XBEE" x="0" y="0"/>
 </gates>
