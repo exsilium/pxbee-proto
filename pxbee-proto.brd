@@ -58,10 +58,8 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="2.54" x2="58.42" y2="2.54" width="0" layer="20"/>
-<wire x1="58.42" y1="2.54" x2="58.42" y2="69.85" width="0" layer="20"/>
-<wire x1="58.42" y1="69.85" x2="0" y2="69.85" width="0" layer="20"/>
-<wire x1="0" y1="69.85" x2="0" y2="2.54" width="0" layer="20"/>
+<wire x1="58.42" y1="3.937" x2="58.42" y2="68.453" width="0" layer="20"/>
+<wire x1="57.023" y1="69.85" x2="1.397" y2="69.85" width="0" layer="20"/>
 <hole x="2.54" y="5.08" drill="2.2"/>
 <hole x="55.88" y="5.08" drill="2.2"/>
 <hole x="55.88" y="67.31" drill="2.2"/>
@@ -13251,6 +13249,12 @@
 <rectangle x1="29.064765625" y1="61.364971875" x2="29.453384375" y2="61.373353125" layer="16"/>
 <rectangle x1="29.130803125" y1="61.373353125" x2="29.394965625" y2="61.381734375" layer="16"/>
 <text x="49.53" y="35.56" size="1.4224" layer="21" rot="R90">chamber.ee</text>
+<wire x1="0" y1="68.453" x2="0" y2="3.937" width="0" layer="20"/>
+<wire x1="0" y1="68.453" x2="1.397" y2="69.85" width="0" layer="20" curve="-90"/>
+<wire x1="1.397" y1="2.54" x2="57.023" y2="2.54" width="0" layer="20"/>
+<wire x1="0" y1="3.937" x2="1.397" y2="2.54" width="0" layer="20" curve="90"/>
+<wire x1="57.023" y1="2.54" x2="58.42" y2="3.937" width="0" layer="20" curve="90"/>
+<wire x1="58.42" y1="68.453" x2="57.023" y2="69.85" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="pxbee_proto">
@@ -14281,11 +14285,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="BORDER">
 <polygon width="0.1524" layer="16" isolate="1.143">
-<vertex x="0.008459375" y="69.847815625"/>
-<vertex x="58.4207875" y="69.847815625"/>
-<vertex x="58.4207875" y="2.54591875"/>
-<vertex x="0.008459375" y="2.54591875"/>
-<vertex x="0.008459375" y="69.83935625"/>
+<vertex x="0.008459375" y="3.928540625"/>
+<vertex x="0.008459375" y="68.461459375" curve="-90"/>
+<vertex x="1.394815625" y="69.847815625"/>
+<vertex x="57.025184375" y="69.847815625" curve="-90"/>
+<vertex x="58.4207875" y="68.4522125"/>
+<vertex x="58.4207875" y="3.9377875" curve="-90"/>
+<vertex x="57.02891875" y="2.54591875"/>
+<vertex x="1.39108125" y="2.54591875" curve="-90"/>
 </polygon>
 </signal>
 </signals>
