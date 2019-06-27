@@ -1087,7 +1087,7 @@ Improvements to the package by Sten Feldman:
 <connect gate="G$1" pin="PWM1/DIO11" pad="P7"/>
 <connect gate="G$1" pin="RSSI_PWM/PWM0_DIO10" pad="P6"/>
 <connect gate="G$1" pin="SPI_MOSI/DIO4" pad="P11"/>
-<connect gate="G$1" pin="VCC" pad="P1 P1-B P1-C P1-D P1-E P1-F P1-G P1-H P1-I P1-J"/>
+<connect gate="G$1" pin="VCC" pad="P1 P1-B P1-C P1-D P1-E"/>
 <connect gate="G$1" pin="VREF" pad="P14"/>
 <connect gate="G$1" pin="[RESESERVED]" pad="P8"/>
 </connects>
